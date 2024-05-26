@@ -1,0 +1,65 @@
+<!--<!DOCTYPE html>-->
+<html lang="pt">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AP's</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css-aula05.css">
+  </head>
+
+  <body>
+    <main>
+      <!-- user will input the task here -->
+	  <div class="nav" id="top">
+	  <h3>Uso e Consumo</h3>
+      </DIV>  
+      <form>
+        <input type="text" placeholder="Informe a loja" id="userInput">
+        <button id="submit">Adicionar</button>
+      </form>
+      <!-- four sections for tasks -->
+      <section id="container">
+        <section>
+          <h2 class=" h2-style gold">Em Progreco</h2>
+          <ul class="tasksSection" id="inProgress">
+          </ul>
+        
+        </section>  
+        <section>
+          <h2 class="h2-style red">Em Espera</h2>
+          <ul class="tasksSection" id="hold">
+          </ul>
+        </section>
+        <section>
+          <h2 class="h2-style blue">Em Revisão</h2>
+          <ul class="tasksSection" id="review"></ul>
+        </section>
+        <section>
+          <h2 class="h2-style green">Aprovado</h2>
+          <ul class="tasksSection" id="Approved"></ul>
+        </section>
+      </section>
+    </main>
+    <!-- descriptions and notes for each task -->
+    <section id="descrpContainer">
+      <section id="descrpWrapper"> 	<div id="root"></div> 
+       
+        <button id="cancel">Fechar</button>
+        <button id="save">Salvar</button> 
+      </section>
+    </section>
+   
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.production.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/antd/4.16.3/antd.min.js"></script>
+    <script src="html-aula05.js"></script>
+	
+
+
+
+  </body>
+
+</html>
